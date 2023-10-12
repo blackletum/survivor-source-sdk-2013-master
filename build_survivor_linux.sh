@@ -6,7 +6,7 @@ cd ./mp/src
 sudo chmod -R +x devtools/*
 sudo chmod -R +x devtools/bin
 sudo chmod -R +x devtools/bin/linux
-sudo chmod +x creategameprojects
-sudo bash creategameprojects
+sudo chmod +x createsurvivor
+sudo bash createsurvivor
 sudo make -f games_survivor.mak clean
 sudo make -f games_survivor.mak
